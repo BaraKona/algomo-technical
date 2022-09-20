@@ -1,0 +1,25 @@
+.search{
+  max-width: 25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search__input,
+.search__submit{
+  padding: 0.625rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.1875rem;
+  margin: 0 10px;
+}
+.search__submit{
+  border: solid 0.063rem var(--active_yellow);
+  background-color: var(--active_yellow);
+  cursor: pointer;
+}
+.search__input{
+  border: solid 0.063rem black;
+}
+.error{
+  color: black;
+}
